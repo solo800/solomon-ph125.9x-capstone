@@ -1,0 +1,18 @@
+# R artifacts
+.Rhistory
+.Rdata
+.RData
+Rplots.pdf
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large raw data (not needed — processed data is included)
+local_data/
+
+# Intermediate outputs
+data/dvf_houses_filtered.csv
+data/model_checkpoint.RDS
+data/report_data.RDS

@@ -61,6 +61,12 @@ options(scipen = 999)  # Disable scientific notation
 #-------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
+# AI Acknowledgment: While a local Large Language Model (LLM) was occasionally 
+# used to assist with code drafting, all analytical decisions and
+# implementations are the author’s own.
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
 # 1. DATA LOADING
 #-------------------------------------------------------------------------------
 

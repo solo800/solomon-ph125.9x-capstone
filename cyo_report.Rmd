@@ -693,6 +693,10 @@ On the modeling side, a stacked ensemble (combining linear regression, RF, and X
 
 For the relocation decision itself, a natural next step is to use the trained model as a property valuation tool. Feeding in specific listings would let us identify undervalued houses in whichever city we choose.
 
+# Acknowledgments
+
+This project utilized generative AI tools in an assistive capacity. A local Large Language Model (LLM) was occasionally employed for code drafting and file manipulation to automate repetitive tasks that lacked significant intellectual or educational value. Additionally, an LLM provided editorial feedback on the report prose. However, all analytical decisions, model implementations, and written content remain my own. The core analysis pipeline, modeling choices, and conclusions represent original work; AI tools were used solely to accelerate drafting and identify errors rather than to generate the underlying analysis.
+
 # References
 
 - DVF (Demandes de Valeurs Foncières): https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/

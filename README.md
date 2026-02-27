@@ -39,7 +39,7 @@ Three supervised models (Linear Regression, Random Forest, XGBoost) predict hous
 2. Open `cyo_edx.Rproj` in RStudio
 3. Source `cyo_script.R`
 
-The script automatically installs any missing packages using `if (!require(...))` statements. It loads the pre-processed dataset (`data/dvf_houses_clean.csv`) directly, so no raw DVF files are needed. Full execution takes approximately 5 minutes depending on hardware (tested on Apple M1 Pro, 32 GB RAM).
+The script automatically installs any missing packages using `if (!require(...))` statements. It loads the pre-processed dataset (`data/dvf_houses_clean.csv`) directly, so no raw DVF files are needed. Full execution takes approximately 10-15 minutes depending on hardware (tested on Apple M1 Pro, 32 GB RAM).
 
 The script produces all analysis outputs and saves `data/report_data.RDS`, which contains pre-computed results used by the Rmd file. If you wish to re-knit `cyo_report.Rmd`, run the script first. The pre-knit PDF (`cyo_report.pdf`) is included in the repository.
 
